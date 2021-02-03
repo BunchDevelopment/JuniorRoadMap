@@ -1,5 +1,39 @@
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    padding-bottom: 32px;
+}
+
+.infoBlock{
+    height: 75vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.infoBlockLeft{
+    align-items: flex-start;
+}
+
+.infoBlockRight{
+    align-items: flex-end;
+}
+/* 
+#first{
+    height: 40vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 11px;
+}
+
+#first:hover{
+    background-color: #582be257;
 }
 
 .App-logo {
@@ -35,4 +69,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
